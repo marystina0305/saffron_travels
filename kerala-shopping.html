@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping in Kerala</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fff3e0;
+}
+
+header{
+    background:#e65100;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.section{
+    padding:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:10px 20px;
+    background:#e65100;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛍 Shopping in Kerala</h1>
+    <p>Best malls & traditional markets</p>
+</header>
+
+<div class="section">
+
+    <div class="grid">
+
+        <!-- Lulu Mall -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519567241046-7f570eee3ce6" alt="Lulu Mall">
+            <div class="card-content">
+                <h3>LuLu Mall</h3>
+                <p>📍 Kochi</p>
+                <p>One of India’s largest malls with international brands & cinema.</p>
+            </div>
+        </div>
+
+        <!-- Broadway Market -->
+        <div class="card">
+            <img src="https://preview.redd.it/kochi-has-broadway-what-does-tvm-has-to-offer-v0-i0zoftc9j93e1.jpeg?width=640&crop=smart&auto=webp&s=95197ed09890d6dd3fb3669636a1e9130c4c1872" alt="Market">
+            <div class="card-content">
+                <h3>Broadway Market</h3>
+                <p>📍 Kochi</p>
+                <p>Famous for spices, antiques & handicrafts.</p>
+            </div>
+        </div>
+
+        <!-- Chalai Market -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9" alt="Local Market">
+            <div class="card-content">
+                <h3>Chalai Market</h3>
+                <p>📍 Thiruvananthapuram</p>
+                <p>Traditional market for clothes, vegetables & local goods.</p>
+            </div>
+        </div>
+
+        <!-- Spice Market -->
+        <div class="card">
+            <img src="" alt="Spice Market">
+            <div class="card-content">
+                <h3>Mattancherry Spice Market</h3>
+                <p>📍 Fort Kochi</p>
+                <p>Best place to buy authentic Kerala spices.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="kerala.html" class="back-btn">⬅ Back to Kerala</a>
+
+</div>
+
+</body>
+</html>
