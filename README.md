@@ -1,28 +1,37 @@
-<p align="center">
+<img width="1892" height="905" alt="image" src="https://github.com/user-attachments/assets/3ed9cb30-2093-4757-9fd3-67ec9887fdb0" /><p align="center">
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Saffron Travels🎯
 
 ## Basic Details
 
 ### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Mary Stina TJ] - [Government Engineering College Sreekrishnapuram]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://marystina0305.github.io/saffron_travels/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Saffron Travels is a modern and responsive travel website designed to help users explore beautiful destinations across India. The platform showcases tour packages, traveler reviews, destination highlights, and contact information in an attractive and user-friendly layout.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Many travel websites are cluttered, outdated, or confusing for users. Travelers often struggle to find clear information about destinations, pricing, and packages in one place.]
 
 ### The Solution
-[How are you solving it?]
+[Saffron Travels provides a clean, visually appealing, and well-structured website that:
+
+Showcases popular Indian destinations
+
+Highlights special tour packages with pricing
+
+Displays real traveler testimonials
+
+Provides an easy contact form for inquiries
+
+The goal is to offer a smooth and engaging travel browsing experience.]
 
 ---
 
@@ -31,10 +40,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [HTML5,CSS3,JavaScript]
+- Frameworks used: [None (Pure HTML, CSS & JS)]
+- Libraries used: [Google Fonts,RandomUser API (for testimonial images)]
+- Tools used: [VS Code,Git & GitHub,Netlify (for hosting),Chrome DevTools]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +55,12 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:Responsive modern travel website design
+- Feature 2: Interactive sidebar navigation menu
+- Feature 3:Destination cards with images
+- Feature 4:Special tour packages with pricing and offers
+- Feature 5:Customer testimonials section
+- Feature 6:Contact form for inquiries
 
 ---
 
@@ -59,12 +70,12 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[Installation commands - git clone https://github.com/yourusername/saffron-travels.git
+cd saffron-travels]
 ```
-
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[Run commands - open index.html]
 ```
 
 ### For Hardware:
@@ -83,32 +94,64 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]
+(
+<img width="1902" height="912" alt="image" src="https://github.com/user-attachments/assets/9f19f78d-1dad-4a6e-9f7d-400f37a36eda" />
+)
+Home page 
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+The Home section serves as the primary entry point of the Saffron Travels website. It is designed to create a strong first impression, communicate the brand identity, and guide users smoothly to important sections of the website.
+![Screenshot2]
+(
+<img width="1892" height="905" alt="image" src="https://github.com/user-attachments/assets/1b7fd54c-fee2-486e-86b8-1a16deccdc82" />
+
+)
+About page
+The About Page introduces Saffron Travels, explaining the company’s mission, vision, and commitment to providing memorable and affordable travel experiences across India. It builds trust by highlighting key features like customer satisfaction, best price guarantee, and expert travel planning services.
+
+![Screenshot3]
+(
+<img width="1888" height="908" alt="image" src="https://github.com/user-attachments/assets/2deb4fe8-77f9-48b7-9a46-540a16103eff" />
+
+
+)Explore page
+The Explore Page showcases various Indian states and destinations in a visually appealing grid layout. Users can browse destination cards with images and names, and click on them to explore detailed travel information and packages. It serves as the main section for discovering travel options.
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram](<img width="1536" height="1024" alt="ChatGPT Image Feb 28, 2026, 04_32_07 PM" src="https://github.com/user-attachments/assets/1c63d796-202b-4738-84d7-114b865483f2" />
+)
+
+*Explain your system architecture - 
+Frontend: HTML + CSS + JavaScript
+
+Hosting: Netlify
+
+No backend (static website)
+
+External image APIs used for visuals
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![Workflow](<img width="1536" height="1024" alt="ChatGPT Image Feb 28, 2026, 04_21_57 PM" src="https://github.com/user-attachments/assets/f348652c-8124-4de4-928d-cbfd31ba9153" />
+)
 *Add caption explaining your workflow*
+Frontend: HTML + CSS + JavaScript
 
+Hosting: Netlify
+
+No backend (static website)
+
+External image APIs used for visuals
 ---
 
 ### For Hardware:
 
 #### Schematic & Circuit
+ 
 
 ![Circuit](Add your circuit diagram here)
 *Add caption explaining connections*
@@ -374,41 +417,50 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [ChatGPT]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+- Example: UI design improvements
 
+- Example:CSS styling suggestions
+
+- Example:Debugging layout issues
+
+Improving responsiveness
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+"Make the contact section more realistic without map”
 
-**Percentage of AI-generated code:** [Approximately X%]
+“Make the tour packages more attractive”
+
+“Fix layout alignment issue”
+
+**Percentage of AI-generated code:** [Approximately 25–30% ]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+-  Complete website structure design
+
+Custom styling decisions
+
+Layout planning
+
+Content writing
+
+Testing and debugging
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
+Testing and debugging
 ---
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Mary Stina TJ]: [Specific contributions - Frontend Development,UI/UX Design,Layout Structuring,Content Creation,Testing & Deployment]
 
 ---
 
 ## License
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT] License - see the [LICENSE](LICENSE) file for details.
 
 **Common License Options:**
 - MIT License (Permissive, widely used)
